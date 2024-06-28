@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    max-width: 100%;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+}
+h3:hover,  li:hover{
+    text-shadow: 2px 2px 5px rgb(243, 17, 133);
+}
+ h3{
+  float: left;
+  font-size: 35px;
+
+}
+ li{
+    align-items: center;
+   padding: 30px;
+   display: inline-block;
+   font-size: 20px;
+   
+}
+a{
+    color: white;
+    background-color: black;
+   padding: 15px;
+   border-radius: 20px;
+}
+.home2{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   
+}
+.text{
+    padding: 0 200px;
+}
+p{
+    color: gray;
+    padding-top:20px ;
+    font-size: 17px;
+    line-height: 20px;
+}
+.home2{
+    padding: 40px 0px;
+}
+ .home2 .text h1{
+    font-size: 70px;
+  line-height: 65px;
+  }
+ 
+img{
+    width: 600px;
+    height: 650px;
+   position: relative;
+}
+ .home2 h3{
+  position: absolute;
+  bottom: 20%;
+  
+}
+button{
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    font-family: cursive;
+    position: absolute;
+    top: 80%;
+    right: 28%;
+    cursor: pointer;
+    margin: 17px;
+    border-radius: 25px;
+    padding: 9px 33px;
+}
+button:hover{
+    background-color: transparent;
+    border: none;
+    color: black;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 25px;
+}
+/*Product*/
+.product{
+    background-color: black;
+    padding: 40px 60px;
+    background: linear-gradient(90deg, black 0%, gray 35%, black 100%);
+   /*background: linear-gradient(black, gray,black);*/
+}
+.black{
+    padding: 30px 90px;
+   display: flex;
+   justify-content: space-around;
+    
+}
+   .black .img{
+    width: 370px;
+    height: 600px;
+  /* border: 1px solid wheat;*/
+   margin-left: 80px;
+    transform: rotate(-25deg);
+  }
+  .black .img:hover{
+    transform: scale(1.2);
+  }
+.blu{
+    color: white;
+  /*  border: 1px solid wheat;*/
+    margin-right: 190px;
+    padding-top:50px ;
+    line-height: 90px;
+}
+.qs{
+    color: white;
+   /* border: 1px solid wheat;*/
+    margin-right: 190px;
+    padding-top:60px ;
+    line-height: 90px;
+}
+  
+ .bla{
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    
+ }
+ .whi{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+    
+ }
+ .red{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+ }
+ .sky{
+    background-color: skyblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+ }
+ .tap{
+    background-color: darkgoldenrod;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  
+ }
+ .allclr{
+    display: flex;
+    padding-top: 60px;
+    gap: 10px;
+    cursor: pointer;
+ }
+ .add{
+    
+    background-color: white;
+    width: 190px;
+    height: 60px;
+    align-content: center;
+    padding-left: 49px;
+    margin-top: 3px;
+    margin-left: 650px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .add:hover{
+    background-color: transparent;
+    border: none;
+    color: black;
+    box-shadow: 2px 2px 4px gray,-2px -2px 4px gray ;
+    color: aliceblue;
+    }
+
+   /*Store*/ 
+   .store{
+    padding: 90px 90px;
+    text-align: center;
+    position: relative;
+   }
+   .store .h1:hover, .h2:hover,.h3:hover{
+    animation: store 2s linear infinite;
+    
+   }
+   @keyframes store{
+    to{
+         transform: scale(1);
+    }
+    from{
+        transform: scale(0.9);
+    }
+   }
+   .store h3{
+  /*  border: 1px solid springgreen;*/
+   
+    margin-left: 550px;
+
+   }
+   .store .hp{
+    cursor: pointer;
+    padding: 60px 0;
+    display: flex;
+  justify-content: space-between;
+   }
+   .store .hp  .h1{
+    max-width: 250px;
+    height: 330px;
+    margin-top: 60px;
+    margin-left: 50px;
+   }
+.store .hp .h2{
+    
+    max-width: 400px;
+    height: 500px;
+    text-align: center;
+}
+.store .hp .h3{
+    max-width: 250px;
+    height: 330px;
+    margin-top: 60px;
+    align-content: center;
+}
+.hp .b1{
+    text-align: center;
+    align-content: center;
+}
+.hp .b1 b{
+   position: absolute;
+   top: 32%;
+   left: 13%;
+   font-size: 20px;
+}
+.hp .b3 b{
+    font-size: 20px;
+    position: absolute;
+   top: 32%;
+   right: 9%;
+}
+price{
+    font-size: 30px;
+    font-weight: bold;
+}
+.hp .b2{
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.hp .b2 b{
+    position: absolute;
+    top:23%;
+   right: 43%;
+   z-index: 3;
+   font-size: 20px;
+}
+.hp .b3{
+    align-content: center;
+    text-align: center;
+}
+/*footer*/
+footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+footer h3 {
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    padding-top: 20px;
+  font-weight: lighter;
+}
+.logo {
+    font-size: 20px;
+    padding-top: 60px;
+    color: black;
+    margin-left: 40%;
+   
+}
+.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-youtube{
+    border: 1px solid white;
+    background-color:white ;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 5px;
+    
+}
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-youtube:hover{
+    background-color: transparent;
+    color: white;
+    outline:dotted 2px rgb(112, 216, 126) ;
+    animation: rot 2s linear infinite;
+}
+@keyframes rot{
+    to{
+        transform: rotate(180deg);
+    }
+    from{
+           transform: rotate(-180deg);
+    }
+}
+.copy p{
+    font-size: 17px;
+    padding-top: 30px;
+    margin-left: 30%;
+}
